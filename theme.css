@@ -32,3 +32,43 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+/* obsidian-calendar-plugin */
+/* https://github.com/liamcain/obsidian-calendar-plugin */
+:root {
+  --accent-color: #bada55;
+  --accent-h: 74;
+  --accent-s: 64%;
+  --accent-l: 59%;
+}
+body {
+  --nav-item-color-active: var(--accent-color);
+  --icon-color-hover: var(--accent-color);
+}
+#calendar-container {
+  --color-background-heading: transparent;
+  --color-background-day: transparent;
+  --color-background-weeknum: transparent;
+  --color-background-weekend: transparent;
+
+  --color-dot: var(--accent-color);
+  --color-arrow: var(--text-muted);
+  --color-button: var(--text-muted);
+
+  --color-text-title: var(--text-normal);
+  --color-text-heading: var(--text-muted);
+  --color-text-day: var(--text-normal);
+  --color-text-today: var(--interactive-accent);
+  --color-text-weeknum: var(--text-muted);
+}
+
+/*.theme-dark {*/
+/*  --background-primary: white;*/
+/*  --background-secondary: lime;*/
+/*}*/
+
+/*.theme-light {*/
+/*  --background-primary: #ECE4FF;*/
+/*  --background-secondary: #D9C9FF;*/
+/*}*/
+
